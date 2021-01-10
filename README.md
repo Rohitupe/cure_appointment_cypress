@@ -14,4 +14,18 @@ npx cypress run --spec cypress/integration/katalon_Appointment/cura.spec.js --br
 
 <h6> Update code in cypress.json file </h6>
 
+<code>
+{
+    "_comment" : "To get an Beautiful report for our test case i will MochAwesome",
+    "reporter" : "mochawesome",
+    "reporterOptions" : {
+        "reportDir" : "cypress/report/mochawesome-report",
+        "overwrite" : true,
+        "html" : true,
+        "json" : false,
+        "timestamp" : "mmddyyyy_HHMMss"
+    }
+}
+</code>
+
 
