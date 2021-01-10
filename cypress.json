@@ -1,0 +1,13 @@
+
+{
+    "_comment" : "To get an Beautiful report for our test case i will MochAwesome",
+    "reporter" : "mochawesome",
+    "reporterOptions" : {
+        "reportDir" : "cypress/report/mochawesome-report",
+        "overwrite" : true,
+        "html" : true,
+        "json" : false,
+        "timestamp" : "mmddyyyy_HHMMss"
+    },
+    "projectId": "jy4wei"
+}
