@@ -12,11 +12,11 @@ Automate use case with Cypress
 npx cypress run --spec cypress/integration/katalon_Appointment/cura.spec.js --browser=chrome
 
 
-<h6> Update code in cypress.json file </h6>
+<h6> Add Below code in cypress.json file to generate mochawesome report </h6>
 
 <code>
 {
-    "_comment" : "To get an Beautiful report for our test case i will MochAwesome",
+    "_comment" : "To get an Beautiful report i used MochAwesome",
     "reporter" : "mochawesome",
     "reporterOptions" : {
         "reportDir" : "cypress/report/mochawesome-report",
